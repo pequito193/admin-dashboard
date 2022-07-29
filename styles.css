@@ -27,12 +27,30 @@ body {
     background-color: rgba(25,146,212,255);
     height: 100vh;
     color: white;
-    font-family: 'Roboto-Medium', sans-serif;
+    font-family: 'Roboto-medium', sans-serif;
+}
+
+.sidebar {
+    margin-top: 20px;
+    display: grid;
+    gap: 32px;
 }
 
 .title {
-    text-align: center;
     font-size: 32px;
+    list-style-type: none;
+}
+
+.sidebar-options {
+    display: grid;
+    gap: 20px;
+}
+
+.options {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: bold;
 }
 
 .right-side {
