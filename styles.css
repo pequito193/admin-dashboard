@@ -101,7 +101,7 @@ body {
 .card {
     background-color: white;
     box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.322);
-    height: 260px;
+    height: 28vh;
     border-radius: 10px;
     border-left: 8px solid #22c55e;
 }
@@ -124,6 +124,23 @@ body {
     display: grid;
 }
 
+.topright-title {
+    font-size: 20px;
+    margin-bottom: 2vh;
+}
+
 .bottom-right {
     display: grid;
 }
+
+.bottomright-title {
+    font-size: 20px;
+    margin-bottom: 2vh;
+}
+
+.topright-content,
+.bottomright-content {
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.322);
+    border-radius: 10px;
+} 
