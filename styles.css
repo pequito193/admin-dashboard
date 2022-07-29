@@ -15,6 +15,7 @@
 
 body {
     margin: 0;
+    font-family: 'Roboto-medium', sans-serif;
 }
 
 .big-container {
@@ -22,9 +23,12 @@ body {
     grid-template-columns: 1fr 5fr;
 }
 
+
+
+/* Sidebar starts here */
 .left-side {
     grid-column: 1 / 2;
-    background-color: rgba(25,146,212,255);
+    background-color: #334155;
     height: 100vh;
     color: white;
     font-family: 'Roboto-medium', sans-serif;
@@ -52,11 +56,14 @@ body {
     font-family: 'Roboto-Regular', sans-serif;
     font-weight: bold;
 }
+/* Sidebar ends here */
+
+
 
 .right-side {
     grid-column: 2 / 3;
     display: grid;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 4fr;
 }
 
 .header {
@@ -68,18 +75,44 @@ body {
 
 .main-container {
     grid-row: 2 / 5;
-    background-color: rgba(226,232,240,255);
+    background-color: rgba(231,229,228,255);
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
 
 .right-container {
-    box-shadow: none;
+    margin-top: 3vh;
+    padding: 8px;
+    justify-content: left;
+    padding-left: 2vw;
+}
+
+.right-title {
+    font-size: 20px;
+    margin-bottom: 2vh;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 360px));
+    gap: 24px;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.322);
+    height: 220px;
+    border-radius: 10px;
+    border-left: 8px solid #22c55e;
 }
 
 .left-container {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    margin-top: 3vh;
+    padding: 8px;
+    justify-content: left;
+    padding-left: 2vw;
 }
 
 .top-left {
