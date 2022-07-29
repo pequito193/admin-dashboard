@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.big-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.left-side {
+    grid-column: 1 / 2;
+    background-color: rgba(25,146,212,255);
+    border: 2px solid green;
+}
+
+.right-side {
+    grid-column: 2 / 3;
+    border: 2px solid red;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.header {
+    grid-row: 1 / 2;
+    border: 2px solid yellow;
+}
+
+.main-container {
+    grid-row: 2 / 5;
+    background-color: rgba(226,232,240,255);
+    border: 2px solid blue;
+}
