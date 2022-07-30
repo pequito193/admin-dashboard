@@ -130,6 +130,12 @@ input {
     align-items: center;
 }
 
+.profile-picture {
+    width: 2.5vw;
+    height: auto;
+    border-radius: 40%;
+}
+
 .name {
     font-family: 'Roboto-Regular', sans-serif;
     font-size: 20px;
@@ -140,6 +146,16 @@ input {
     grid-column: 1;
     grid-row: 2;
     padding-left: 2vw;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    justify-content: left;
+    align-items: center;
+}
+
+.profile-picture2 {
+    width: 4vw;
+    height: auto;
+    border-radius: 20%;
 }
 
 .name2 {
