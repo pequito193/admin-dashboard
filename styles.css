@@ -261,8 +261,8 @@ button:hover {
 .card-icons {
     display: flex;
     justify-content: right;
-    margin-right: 1vw;
-    padding-top: 12vh;
+    margin-right: 2vw;
+    padding-top: 10vh;
 }
 
 .card-icons>img {
