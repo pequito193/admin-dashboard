@@ -77,7 +77,7 @@ body {
 .right-side {
     grid-column: 2 / 3;
     display: grid;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 27vh 1fr;
 }
 
 .header {
