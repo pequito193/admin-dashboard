@@ -255,6 +255,7 @@ button:hover {
 
 .card-text {
     padding-left: 1vw;
+    opacity: 0.6;
 }
 
 .card-icons {
