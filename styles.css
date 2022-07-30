@@ -279,12 +279,15 @@ button:hover {
     grid-template-rows: 1fr 1fr;
     margin-top: 3vh;
     padding: 8px;
+    gap: 4vh;
     justify-content: left;
-    padding-left: 2vw;
+    padding-left: 1vw;
 }
 
 .top-right {
     display: grid;
+    grid-template-rows: 1fr 6fr;
+    width: 15vw
 }
 
 .topright-title {
@@ -294,6 +297,7 @@ button:hover {
 
 .bottom-right {
     display: grid;
+    grid-template-rows: 1fr 6fr;
 }
 
 .bottomright-title {
