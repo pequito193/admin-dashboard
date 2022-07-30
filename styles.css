@@ -285,20 +285,16 @@ button:hover {
     padding-left: 1vw;
 }
 
-.top-right {
+.top-right,
+.bottom-right {
     display: grid;
     grid-template-rows: 1fr 11fr;
-    width: 15vw
+    width: 15vw;
 }
 
 .topright-title {
     font-size: 20px;
     height: fit-content;
-}
-
-.bottom-right {
-    display: grid;
-    grid-template-rows: 1fr 10fr;
 }
 
 .bottomright-title {
