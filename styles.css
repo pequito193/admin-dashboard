@@ -102,6 +102,7 @@ body {
 .header-icon {
     height: 2rem;
     width: 2rem;
+    margin-right: 1.5vw;
 }
 
 .header-icon:hover {
