@@ -206,7 +206,6 @@ button:hover {
 
 .left-title {
     font-size: 20px;
-    margin-bottom: 2vh;
 }
 
 .cards {
@@ -223,6 +222,15 @@ button:hover {
     min-height: fit-content;
     border-radius: 10px;
     border-left: 8px solid #22c55e;
+}
+
+.card-title {
+    padding-top: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.025, 1.025);
 }
 
 .card-title {
