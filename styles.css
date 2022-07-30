@@ -190,6 +190,7 @@ button:hover {
 
 
 
+/* Main section starts here */
 .main-container {
     grid-row: 2 / 5;
     background-color: rgba(231,229,228,255);
@@ -236,6 +237,26 @@ button:hover {
     padding-top: 6%;
 }
 
+.card-text {
+    padding-left: 1vw;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: right;
+    margin-right: 1vw;
+    padding-top: 12vh;
+}
+
+.card-icons>img {
+    height: 2.5vh;
+    width: 2.5vw;
+}
+/* Main section ends here */
+
+
+
+/* Announcements and trending start here */
 .right-container {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -268,4 +289,5 @@ button:hover {
     background-color: white;
     box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.322);
     border-radius: 10px;
-} 
+}
+/* Announcements and trending end here */
